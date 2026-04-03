@@ -103,7 +103,7 @@ export default function Artist() {
                     </h2>
 
                     <p className="mt-2 text-lg text-white/60">
-                        Colored Pencil · Character Art
+                        Prismacolor Colored Pencils
                     </p>
 
                     <div className="mt-12 grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
