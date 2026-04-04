@@ -7,28 +7,81 @@ export default function SoftwareDeveloper() {
         <div className="relative h-screen w-full overflow-y-scroll snap-y snap-mandatory bg-gradient-to-b from-black via-[#0a0a0a] to-[#111] text-white">
 
             <section className="relative snap-start min-h-screen w-full px-6 py-16 md:px-16 lg:px-24">
-                {/* Back button */}
+
+                {/* Back Button */}
                 <button
                     onClick={() => navigate("/")}
                     className="
-            absolute right-6 top-6
-            cursor-pointer text-sm text-white/70 transition
-            hover:text-blue-400 hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.6)]
-            md:text-base
-          "
+      absolute right-6 top-6
+      cursor-pointer text-sm text-white/70 transition
+      hover:text-blue-400 hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.6)]
+      md:text-base
+    "
                 >
                     ← Back
                 </button>
 
-                {/* Title */}
+                <h2 className="text-5xl font-bold text-white md:text-7xl">
+                    WHY I LOVE{" "}
+                    <br /><span className="text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)]">
+                        SOFTWARE DEVELOPMENT
+                    </span>
+                </h2>
+                <div className="mt-20 flex w-full flex-col items-center gap-16 md:flex-row md:items-center md:justify-between">
+
+
+                    <div className="max-w-3xl space-y-8 text-xl leading-relaxed text-white/85 md:text-2xl">
+                        <p>
+                            There is one thing that draws me to software development, and that's the
+                            <span className="text-blue-400"> infinite creative freedom</span>
+                        </p>
+
+                        <p>
+                            You can build almost {" "}
+                            <span className="text-blue-400"> ANYTHING </span> with code. From <span className="text-blue-400"> tools </span>
+                            and <span className="text-blue-400"> websites </span> to
+                            <span className="text-blue-400"> videogames </span> and products that
+                            <span className="text-blue-400"> solve real world issues </span>
+                        </p>
+
+                        <p>
+
+                            The balance between <span className="text-blue-400"> logic </span> and <span className="text-blue-400"> creativity </span> is what excites me most. It feels like
+                            a space where you can fully imagine, experiment, and create something that is
+                            entirely your own.
+                        </p>
+                    </div>
+
+
+                    <img
+                        src="/SoftwareDevMe.png"
+                        alt="Software developer portrait"
+                        className="absolute right-[-5%] top-1/2 -translate-y-1/2
+                                    w-[520px] object-contain
+                                    md:w-[700px] lg:w-[850px]
+                                    pointer-events-none"/>
+                </div>
+            </section>
+
+            <section className="relative snap-start min-h-screen w-full px-6 py-16 md:px-16 lg:px-24">
+
+
                 <h1 className="text-5xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-7xl">
-                    SOFTWARE DEVELOPER
+                    Experience
                 </h1>
 
-                {/* Experience */}
+
                 <div className="mt-16 w-full">
                     <h2 className="mb-10 text-3xl font-semibold md:text-4xl">
-                        Experience
+                        Software Developer Intern -   
+                        <a
+                            href="https://www.kaia.network/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block transition transform hover:scale-110"
+                        >
+                            KAIA Network
+                        </a>
                     </h2>
 
                     <div className="flex w-full flex-col items-start gap-16 md:flex-row">
@@ -46,7 +99,7 @@ export default function SoftwareDeveloper() {
                             </p>
 
                             <p>
-                                I built and shipped full-stack features using{" "}
+                                I built and shipped features using{" "}
                                 <span className="text-blue-400">
                                     React, TypeScript, and Supabase
                                 </span>
@@ -56,15 +109,17 @@ export default function SoftwareDeveloper() {
                             </p>
 
                             <p>
-                                A big part of my work involved debugging real production issues
-                                like Supabase query mismatches or deployment
-                                inconsistencies, improving reliability and making the user
-                                experience smoother.
+                                A major part of my work involved <span className="text-blue-400">QA testing</span>, identifying and reporting issues, and
+                                <span className="text-blue-400"> debugging</span> production problems, including
+                                Supabase query mismatches,
+                                <span className="text-blue-400"> deployment inconsistencies</span>, and
+                                <span className="text-blue-400"> front-end issues in React </span>, improving user experience.
                             </p>
 
                             <p>
-                                I also collaborated Git-based workflows,
-                                contributing to UI improvements, resolving merge conflicts, and
+                                I also collaborated using  <span className="text-blue-400"> Git-based workflows </span>,
+                                contributing to <span className="text-blue-400"> UI improvements </span>,
+                                <span className="text-blue-400"> resolving merge conflicts </span>, and
                                 helping ensure smooth deployments across the platform.
                             </p>
                         </div>
@@ -148,11 +203,11 @@ export default function SoftwareDeveloper() {
             <section className="snap-start min-h-screen w-full border-t border-white/5 px-6 py-16 md:px-16 lg:px-24">
                 <div className="flex min-h-[calc(100vh-8rem)] flex-col justify-center">
                     <h2 className="text-4xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-5xl">
-                        Read. For Speed.
+                        Read. For Speed
                     </h2>
 
                     <p className="mt-3 text-2xl font-semibold text-white md:text-3xl">
-                        My in-progress full-stack magnum opus / nightmare
+                        My full-stack magnum opus / nightmare
                     </p>
 
                     <p className="mt-2 text-lg italic text-white/60">
@@ -160,7 +215,7 @@ export default function SoftwareDeveloper() {
                     </p>
 
                     <p className="mt-2 text-lg italic text-white/50">
-                        Currently in progress — and getting more complicated every time I touch it.
+                        Currently in progress — and getting more complicated (and interesting) every time I touch it.
                     </p>
 
                     <div className="mt-10 flex w-full flex-col items-start gap-16 lg:flex-row">
@@ -188,22 +243,22 @@ export default function SoftwareDeveloper() {
                         {/* Text */}
                         <div className="w-full space-y-6 text-xl leading-relaxed text-white/85 md:text-2xl lg:w-1/2">
                             <p>
-                                <span className="font-semibold text-white">Read. For Speed.</span> is my ongoing full-stack project: a
+                                <span className="font-semibold text-white">Read. For Speed</span> is my ongoing full-stack project: a
                                 <span className="text-blue-400"> React</span> frontend paired with
                                 <span className="text-blue-400"> Node.js</span>, <span className="text-blue-400">Express</span>, and <span className="text-blue-400">TypeScript</span>
                                 <span className="text-blue-400"> REST APIs</span>, with <span className="text-blue-400">Supabase</span> handling both the database and authentication.
                             </p>
 
                             <p>
-                                So far, I’ve built a <span className="text-blue-400">baseline assessment</span> that measures WPM, comprehension accuracy, and effective WPM, plus an
+                                I’ve developed and implemented a <span className="text-blue-400">baseline assessment</span> that measures WPM, comprehension accuracy, and effective WPM, plus an
                                 <span className="text-blue-400"> RSVP reading interface</span> and a
                                 <span className="text-blue-400"> results dashboard</span> to track progress.
                             </p>
 
                             <p>
-                                The next step is adding <span className="text-blue-400">adaptive retesting</span> after every five training sessions, then expanding the platform with
+                                Currently I'm working on <span className="text-blue-400">adaptive retesting</span> after every five training sessions, then expanding the platform with
                                 <span className="text-blue-400"> chunked RSVP</span>, <span className="text-blue-400">speed drills</span>, and a
-                                <span className="text-blue-400"> leaderboard</span>.
+                                <span className="text-blue-400"> leaderboard </span> for competition and engagement.
                             </p>
 
                         </div>

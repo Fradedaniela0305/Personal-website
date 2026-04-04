@@ -6,7 +6,7 @@ export default function MainPage() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black via-[#0a0a0a] to-[#111] text-white flex flex-col items-center justify-start px-6 pt-12">
       
-      {/* Title */}
+
       <h1 className="z-10 text-center text-5xl md:text-7xl font-medium leading-tight">
         Welcome, I'm{" "}
         <button
@@ -20,10 +20,10 @@ export default function MainPage() {
         </button>
       </h1>
 
-      {/* Character + labels */}
+
       <div className="relative mt-4 flex w-full items-center justify-center">
 
-{/* SOFTWARE DEVELOPER */}
+
 <div className="absolute left-[8%] top-[12%] z-20 hidden md:block text-left">
   <button
   onClick={() => navigate("/developer")}
@@ -45,7 +45,7 @@ export default function MainPage() {
   </p>
 </div>
 
-        {/* Character */}
+
         <img
           src="/me.png"
           alt="me"
@@ -56,7 +56,7 @@ export default function MainPage() {
             drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]
           "
         />
-{/* ARTIST */}
+
 <div className="absolute bottom-[16%] right-[10%] z-20 hidden md:block text-right">
  <button
   onClick={() => navigate("/artist")}
@@ -80,7 +80,6 @@ export default function MainPage() {
 </div>
       </div>
 
-      {/* Bottom note */}
       <p className="mt-4 text-2xl md:text-3xl italic text-white/60">
         (or the other way around)
       </p>
