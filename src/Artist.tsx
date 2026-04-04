@@ -31,7 +31,7 @@ export default function Artist() {
                     <div className="mt-6 space-y-5 text-lg leading-relaxed text-white/85 md:text-2xl">
                         <p>
                             I love color pencil drawing. For me, it feels like a kind of
-                            meditation, something I could do for hours and hours 
+                            meditation, something I could do for hours and hours
                             (sometimes I do).
                         </p>
 
@@ -50,7 +50,7 @@ export default function Artist() {
                         alt="Drawing character"
                         className="w-[360px] object-contain md:w-[480px] lg:w-[600px]"
                     />
-                </div> 
+                </div>
 
                 {/* MUSIC CHARACTER SPACE */}
                 <div className="absolute top-[10%] right-[16%] z-10 translate-x-1/2">
@@ -69,7 +69,7 @@ export default function Artist() {
                     </h1>
 
 
-                    <div className="mt-6 space-y-4 text-base leading-relaxed text-white/80 md:text-xl text-left">
+                    <div className="mt-6 space-y-5 text-lg leading-relaxed text-white/80 md:text-2xl text-left">
                         <p>Music is a core part of my life.</p>
                         <p>
                             I’ve played the piano since I was{" "}
@@ -79,7 +79,6 @@ export default function Artist() {
                         <p>
                             If I had 15min left to live I would spend them playing the piano.
                         </p>
-
                     </div>
                 </div>
 
