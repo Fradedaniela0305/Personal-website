@@ -63,6 +63,159 @@ export default function SoftwareDeveloper() {
                 </div>
             </section>
 
+            <section className="snap-start min-h-screen w-full px-6 py-16 md:px-16 lg:px-24 text-white">
+
+                {/* TITLE */}
+                <h1 className="text-5xl md:text-7xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)]">
+                    EDUCATION
+                </h1>
+
+                <div className="mt-20 flex flex-col items-center gap-16 md:flex-row md:items-center md:justify-between">
+
+                    {/* TEXT LEFT */}
+                    <div className="max-w-2xl space-y-6 text-lg md:text-2xl text-white/85 leading-relaxed">
+
+                        <p className="text-2xl md:text-3xl font-semibold text-white">
+                            University of British Columbia
+                        </p>
+
+                        <p>
+                            Bachelor of Science in Computer Science
+                        </p>
+
+                        <p className="text-white/70">
+                            Sept. 2024 – Apr. 2028 <br />Vancouver, BC
+                        </p>
+
+                        <p>
+                            <span className="text-blue-400">89.9%</span> average • GPA:{" "}
+                            <span className="text-blue-400">4.3 / 4.33</span>
+                        </p>
+
+                        <p className="text-white/80">
+                            <span className="font-semibold text-white">Relevant Coursework:</span>{" "}
+                            Software Construction • Introduction to Computer Systems • Models of Computation • Basic Algorithms and Data Structures • Applied Machine Learning 
+                        </p>
+
+                    </div>
+
+                    {/* IMAGE RIGHT */}
+                    <img
+                        src="/ubc.png"
+                        alt="UBC campus"
+                        className="
+        w-[420px] md:w-[520px] lg:w-[650px]
+        object-cover rounded-2xl
+        border border-white/10
+        drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]
+      "
+                    />
+
+                </div>
+            </section>
+
+            <section className="snap-start min-h-screen w-full px-6 py-16 md:px-16 lg:px-24 text-white">
+
+                {/* TITLE */}
+                <h1 className="text-5xl md:text-7xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)]">
+                    SKILLS
+                </h1>
+
+                {/* CORE STACK */}
+                <div className="mt-20">
+                    <h2 className="text-3xl md:text-4xl font-semibold mb-10">
+                        Core Stack
+                    </h2>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
+                        {[
+                            { name: "React", img: "/react.png" },
+                            { name: "TypeScript", img: "/typescript.png" },
+                            { name: "JavaScript", img: "/javascript.png" },
+                            { name: "Node.js", img: "/node.png" },
+                            { name: "Supabase", img: "/supabase.png" },
+                            { name: "Git", img: "/git.png" },
+                        ].map((skill) => (
+                            <div
+                                key={skill.name}
+                                className="
+            flex flex-col items-center gap-3
+            p-5 rounded-xl border border-white/10
+            transition hover:scale-110
+            hover:drop-shadow-[0_0_20px_rgba(96,165,250,0.6)]
+          "
+                            >
+                                <img
+                                    src={skill.img}
+                                    alt={skill.name}
+                                    className="w-14 h-14 object-contain"
+                                />
+                                <p className="text-sm text-white/80">{skill.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="mt-20">
+                    <h2 className="text-3xl md:text-4xl font-semibold mb-10">
+                        Languages
+                    </h2>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
+                        {[
+                            { name: "Java", img: "/java.png" },
+                            { name: "Python", img: "/python.png" },
+                            { name: "C++", img: "/cpp.png" },
+                            { name: "C", img: "/c.png" },
+                            { name: "R", img: "/r.png" },
+                        ].map((skill) => (
+                            <div
+                                key={skill.name}
+                                className="
+          flex flex-col items-center justify-center
+          gap-3 p-5 h-[120px]
+          rounded-xl border border-white/10
+          transition hover:scale-110
+          hover:drop-shadow-[0_0_20px_rgba(96,165,250,0.6)]
+        "
+                            >
+                                <img src={skill.img} alt={skill.name} className="w-14 h-14 object-contain" />
+                                <p className="text-sm text-white/80">{skill.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                <div className="mt-16">
+                    <h2 className="text-3xl md:text-4xl font-semibold mb-10">
+                        Other
+                    </h2>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
+                        {[
+                            { name: "Express", img: "/express.png" },
+                            { name: "HTML", img: "/html.png" },
+                            { name: "CSS", img: "/css.png" },
+                            { name: "JUnit", img: "/junit.png" },
+                        ].map((skill) => (
+                            <div
+                                key={skill.name}
+                                className="
+          flex flex-col items-center justify-center
+          gap-3 p-5 h-[120px]
+          rounded-xl border border-white/10
+          transition hover:scale-110
+          hover:drop-shadow-[0_0_20px_rgba(96,165,250,0.6)]
+        "
+                            >
+                                <img src={skill.img} alt={skill.name} className="w-14 h-14 object-contain" />
+                                <p className="text-sm text-white/80">{skill.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+            </section>
+
             <section className="relative snap-start min-h-screen w-full px-6 py-16 md:px-16 lg:px-24">
 
 
@@ -73,7 +226,7 @@ export default function SoftwareDeveloper() {
 
                 <div className="mt-16 w-full">
                     <h2 className="mb-10 text-3xl font-semibold md:text-4xl">
-                        Software Developer Intern -   
+                        Software Developer Intern -
                         <a
                             href="https://www.kaia.network/"
                             target="_blank"
@@ -131,7 +284,7 @@ export default function SoftwareDeveloper() {
             <section className="snap-start min-h-screen w-full border-t border-white/5 px-6 py-16 md:px-16 lg:px-24">
                 <div className="flex min-h-[calc(100vh-8rem)] flex-col justify-center">
                     <h2 className="text-4xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-5xl">
-                        CARADES
+                        <a href="https://github.com/Fradedaniela0305/Carades" target="_blank">CARADES  </a>
                     </h2>
 
                     <p className="mt-2 text-lg text-white/60">
@@ -203,11 +356,12 @@ export default function SoftwareDeveloper() {
             <section className="snap-start min-h-screen w-full border-t border-white/5 px-6 py-16 md:px-16 lg:px-24">
                 <div className="flex min-h-[calc(100vh-8rem)] flex-col justify-center">
                     <h2 className="text-4xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-5xl">
-                        Read. For Speed
+                        
+                         <a href="https://github.com/Fradedaniela0305/Read-For-Speed" target="_blank">Read. For Speed  </a>
                     </h2>
 
                     <p className="mt-3 text-2xl font-semibold text-white md:text-3xl">
-                        My full-stack magnum opus / nightmare
+                        My favorite project
                     </p>
 
                     <p className="mt-2 text-lg italic text-white/60">
@@ -284,7 +438,8 @@ export default function SoftwareDeveloper() {
 
 
                     <h2 className="text-4xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-5xl">
-                        Fractal Visualizer
+                        
+                        <a href="https://github.com/Fradedaniela0305/Fractals" target="_blank"> Fractal Visualizer </a>
                     </h2>
 
                     <p className="mt-2 text-lg text-white/60">

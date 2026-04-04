@@ -83,9 +83,28 @@ export default function MainPage() {
                 </div>
             </div>
 
-            <p className="mt-4 text-2xl md:text-3xl italic text-white/60">
-                (or the other way around)
-            </p>
+            
+                <button
+  onClick={() => navigate("/howtheyconnect")}
+  className="
+    mt-4 text-xl md:text-3xl font-bold italic
+    cursor-pointer
+    transition hover:scale-105
+  "
+>
+  <span className="text-white/60"> Where </span>
+  <span className="text-blue-400 drop-shadow-[0_0_6px_rgba(96,165,250,0.5)]">
+    CODE 
+  </span>
+  <span className="text-white/60"> and </span>
+
+  <span className="text-blue-400 drop-shadow-[0_0_6px_rgba(96,165,250,0.5)]">
+    ART 
+  </span>
+
+
+  <span className="text-white/60"> meet </span>
+</button>
         </section>
     );
 }
