@@ -32,8 +32,8 @@ export default function HowTheyConnect() {
                     </p>
 
                     <p>
-                        Drawing with color pencils requires planning. It is not easily erasable, so every choice matters.
-                        I approach programming the same way: I think before I code, about structure, stack, features, and user experience.
+                        Drawing with color pencils requires <span className="text-blue-400"> planning </span>. It is not easily erasable, so every choice matters.
+                        I approach programming the same way: <span className="text-blue-400"> I think before I code, about structure, stack, features, and user experience. </span> 
                     </p>
 
                     <p>
@@ -43,7 +43,7 @@ export default function HowTheyConnect() {
                     </p>
 
                     <p>
-                        Both have taught me patience and commitment. I've spent around
+                        Both have taught me patience and <span className="text-blue-400"> commitment </span>. I've spent around
                         <span className="text-blue-400"> 50 hours </span>
                         on Read. For Speed, just like I spent 
                         <span className="text-blue-400"> 100 hours </span>
