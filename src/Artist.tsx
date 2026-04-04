@@ -44,13 +44,13 @@ export default function Artist() {
                 </div>
 
                 {/* DRAWING CHARACTER SPACE */}
-                <div className="absolute left-[16%] top-[52%] z-10 -translate-x-1/2 -translate-y-1/2">
+                <div className="absolute left-[20%] top-[80%] z-10 -translate-x-1/2 -translate-y-1/2">
                     <img
-                        src="/drawing-character.png"
+                        src="/meDrawing.png"
                         alt="Drawing character"
-                        className="w-[260px] object-contain md:w-[340px] lg:w-[400px]"
+                        className="w-[360px] object-contain md:w-[480px] lg:w-[600px]"
                     />
-                </div>
+                </div> 
 
                 {/* MUSIC CHARACTER SPACE */}
                 <div className="absolute top-[10%] right-[16%] z-10 translate-x-1/2">
