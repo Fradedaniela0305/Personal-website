@@ -22,25 +22,17 @@ export default function Artist() {
 
                 {/* DRAWING BLOCK */}
                 <div className="absolute left-[7%] top-[12%] z-20 max-w-[520px]">
-                    <button
-                        onClick={() => navigate("/artist/drawing")}
-                        className="text-left"
-                    >
-                        <h1 className="cursor-pointer text-5xl font-bold tracking-tight text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] transition hover:scale-[1.02] md:text-7xl">
-                            DRAWING
-                        </h1>
-                    </button>
+
+                    <h1 className="text-5xl font-bold tracking-tight text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-7xl">
+                        DRAWING
+                    </h1>
+
 
                     <div className="mt-6 space-y-5 text-lg leading-relaxed text-white/85 md:text-2xl">
                         <p>
                             I love color pencil drawing. For me, it feels like a kind of
                             meditation — something I could do for hours and hours, and
                             sometimes I do.
-                        </p>
-
-                        <p>
-                            I especially love drawing my favorite characters and bringing them
-                            to life in my own way.
                         </p>
 
                         <p>
@@ -61,38 +53,36 @@ export default function Artist() {
                 </div>
 
                 {/* MUSIC CHARACTER SPACE */}
-                <div className="absolute bottom-[40%] right-[16%] z-10 translate-x-1/2 translate-y-1/2">
+                <div className="absolute top-[10%] right-[16%] z-10 translate-x-1/2">
                     <img
-                        src="/music-character.png"
+                        src="/meMusic.png"
                         alt="Music character"
-                        className="w-[240px] object-contain md:w-[320px] lg:w-[380px]"
+                        className="w-[420px] object-contain md:w-[560px] lg:w-[680px]"
                     />
                 </div>
 
                 {/* MUSIC BLOCK */}
-                <div className="absolute bottom-[10%] right-[7%] z-20 max-w-[520px] text-right">
-                    <button
-                        onClick={() => navigate("/artist/music")}
-                        className="text-right"
-                    >
-                        <h1 className="cursor-pointer text-5xl font-bold tracking-tight text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] transition hover:scale-[1.02] md:text-7xl">
-                            MUSIC
-                        </h1>
-                    </button>
+                <div className="absolute bottom-[10%] right-[7%] z-20 max-w-[520px] text-left">
 
-                    <div className="mt-6 space-y-5 text-lg leading-relaxed text-white/85 md:text-2xl">
+                    <h1 className="text-4xl font-bold tracking-tight text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-6xl">
+                        MUSIC
+                    </h1>
+
+
+                    <div className="mt-6 space-y-4 text-base leading-relaxed text-white/80 md:text-xl text-left">
                         <p>Music is a core part of my life.</p>
-
                         <p>
                             I’ve played the piano since I was{" "}
                             <span className="text-blue-400">8 years old</span>.
                         </p>
 
                         <p>
-                            If there’s something that makes me deeply passionate, it’s music.
+                            If I had 15min left to live I would spend them playing the piano.
                         </p>
+
                     </div>
                 </div>
+
             </section>
 
             {/* SECOND PAGE */}
@@ -103,7 +93,7 @@ export default function Artist() {
                     </h2>
 
                     <p className="mt-2 text-lg text-white/60">
-                        Prismacolor Colored Pencils
+                        Prismacolor Color Pencils
                     </p>
 
                     <div className="mt-12 grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
