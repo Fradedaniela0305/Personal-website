@@ -31,8 +31,8 @@ export default function Artist() {
                     <div className="mt-6 space-y-5 text-lg leading-relaxed text-white/85 md:text-2xl">
                         <p>
                             I love color pencil drawing. For me, it feels like a kind of
-                            meditation — something I could do for hours and hours, and
-                            sometimes I do.
+                            meditation, something I could do for hours and hours 
+                            (sometimes I do).
                         </p>
 
                         <p>
