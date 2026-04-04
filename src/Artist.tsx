@@ -84,7 +84,7 @@ export default function Artist() {
 
             </section>
 
-            {/* SECOND PAGE */}
+
             <section className="snap-start min-h-screen w-full border-t border-white/5 px-6 py-16 md:px-16 lg:px-24">
                 <div className="flex min-h-[calc(100vh-8rem)] flex-col justify-center">
                     <h2 className="text-4xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-5xl">
@@ -113,6 +113,49 @@ export default function Artist() {
                             alt="Drawing 2"
                             className="w-full rounded-xl border border-white/10 transition hover:scale-[1.02] hover:drop-shadow-[0_0_25px_rgba(96,165,250,0.6)]"
                         />
+                    </div>
+                </div>
+
+            </section>
+
+            <section className="snap-start min-h-screen w-full border-t border-white/5 px-6 py-16 md:px-16 lg:px-24">
+                <div className="flex min-h-[calc(100vh-8rem)] flex-col justify-center">
+                    <h2 className="text-4xl font-bold text-blue-400 drop-shadow-[0_0_14px_rgba(96,165,250,1)] md:text-5xl">
+                        Music
+                    </h2>
+
+                    <p className="mt-2 text-lg text-white/60">
+                        I love playing the soundtracks of my favorite movies and videogames
+                    </p>
+
+                    <div className="mt-12 grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:auto-rows-[640px]">
+                        <div className="flex h-[800px] flex-col gap-6 lg:h-full">
+                            <img
+                                src="/games.png"
+                                alt="Games"
+                                className="h-0 min-h-0 flex-1 w-full object-cover rounded-xl border border-white/10 transition hover:scale-[1.02] hover:drop-shadow-[0_0_25px_rgba(96,165,250,0.6)]"
+                            />
+
+                            <img
+                                src="/movies.png"
+                                alt="Movies"
+                                className="h-0 min-h-0 flex-1 w-full object-cover rounded-xl border border-white/10 transition hover:scale-[1.02] hover:drop-shadow-[0_0_25px_rgba(96,165,250,0.6)]"
+                            />
+                        </div>
+
+                        <video
+                            className="h-[640px] w-full object-cover rounded-xl border border-white/10 transition hover:scale-[1.02] hover:drop-shadow-[0_0_25px_rgba(96,165,250,0.6)] lg:h-full"
+                            controls
+                        >
+                            <source src="/piano1.MP4" type="video/MP4" />
+                        </video>
+
+                        <video
+                            className="h-[640px] w-full object-cover rounded-xl border border-white/10 transition hover:scale-[1.02] hover:drop-shadow-[0_0_25px_rgba(96,165,250,0.6)] lg:h-full"
+                            controls
+                        >
+                            <source src="/piano2.MP4" type="video/MP4" />
+                        </video>
                     </div>
                 </div>
 
