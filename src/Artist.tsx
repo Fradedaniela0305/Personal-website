@@ -153,7 +153,7 @@ export default function Artist() {
                             className="h-[640px] w-full object-cover rounded-xl border border-white/10 transition hover:scale-[1.02] hover:drop-shadow-[0_0_25px_rgba(96,165,250,0.6)] lg:h-full"
                             controls
                         >
-                            <source src="/piano1.mp4" type="video/mp4" />
+                            <source src="/piano3.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
