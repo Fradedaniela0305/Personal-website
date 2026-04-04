@@ -72,12 +72,11 @@ export default function Artist() {
                     <div className="mt-6 space-y-5 text-lg leading-relaxed text-white/80 md:text-2xl text-left">
                         <p>Music is a core part of my life.</p>
                         <p>
-                            I’ve played the piano since I was{" "}
-                            <span className="text-blue-400">8 years old</span>.
+                            I’ve played the <span className="text-blue-400"> piano </span> since I was 8 years old.
                         </p>
 
                         <p>
-                            If I had 15min left to live I would spend them playing the piano.
+                            If I had 15 min left to live I would spend them playing the piano.
                         </p>
                     </div>
                 </div>
