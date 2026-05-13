@@ -23,10 +23,6 @@ export default function ReadForSpeed() {
             React, Vite, Node.js, Express, Supabase · Feb 2026 – Present
           </p>
 
-          <p className="mt-2 text-lg italic text-white/50">
-            Currently in progress — and getting more complicated every time I
-            touch it.
-          </p>
 
           <div className="mt-10 flex w-full flex-col items-start gap-16 lg:flex-row">
             <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:w-1/2">
