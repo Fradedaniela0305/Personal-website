@@ -105,7 +105,7 @@ const BY_SECTION: { label: string; projects: Project[] }[] = [
       {
         title: "N-Queens Solver",
         description:
-          "Interactive N-Queens solver with a Pygame board GUI. Visualizes backtracking in real time as the algorithm places queens.",
+          "Interactive N-Queens solver with a Pygame board GUI. See where the algorithm places the queens.",
         stack: ["Python", "Pygame"],
         github: "https://github.com/Fradedaniela0305/N_Queens",
         image: nQueensImg,
