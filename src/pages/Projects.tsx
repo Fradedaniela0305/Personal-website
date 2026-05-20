@@ -76,7 +76,7 @@ const BY_SECTION: { label: string; projects: Project[] }[] = [
         title: "UBC Events Discovery",
         subtitle: "Hack Camp Hackathon",
         description:
-          "Campus event discovery platform that aggregates and surfaces UBC events in one browsable feed.",
+          "Campus event discovery platform that surfaces UBC events in one browsable feed.",
         stack: ["React", "JavaScript", "JSON"],
         github:
           "https://github.com/Fradedaniela0305/NW-HackCamp-Project-UBC-Events",
