@@ -115,7 +115,7 @@ export default function Artist() {
           <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-7 backdrop-blur-sm hover:border-blue-400/30 transition">
             <p className="text-xs uppercase tracking-[0.25em] text-blue-400/60 mb-3">Drawing → Planning</p>
             <p className="text-lg leading-relaxed text-white/75">
-              Color pencils are not easily erasable — every choice matters. I approach code the same way:
+              Color pencils are not easily erasable, every choice matters. I approach code the same way, 
               I think first about structure, stack, and user experience before I write a single line.
             </p>
           </div>
@@ -125,7 +125,7 @@ export default function Artist() {
             <p className="text-xs uppercase tracking-[0.25em] text-blue-400/60 mb-3">Code → Problem Solving</p>
             <p className="text-lg leading-relaxed text-white/75">
               Programming shaped my drawing too. If I make a mistake, I look for a way to adapt
-              instead of starting over — a refactor mindset applied to art.
+              instead of starting over.
             </p>
           </div>
 

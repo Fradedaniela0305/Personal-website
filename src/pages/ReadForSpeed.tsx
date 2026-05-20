@@ -1,6 +1,28 @@
 import PageShell from "../components/PageShell";
 
+const HIGHLIGHTS = [
+  {
+    label: "Full-Stack Architecture",
+    detail: "React frontend + Node.js/Express REST API backend, with Supabase handling the database and auth",
+  },
+  {
+    label: "10 RESTful API Endpoints",
+    detail: "Designed and deployed endpoints for user profiles, test attempts, and performance analytics with role-based access control",
+  },
+  {
+    label: "Full API Test Coverage",
+    detail: "Unit and integration tests with Vitest — validating middleware, route handlers, and core business logic",
+  },
+  {
+    label: "WPM Analytics",
+    detail: "Tracks speed, comprehension accuracy, and effective WPM across sessions with a results dashboard",
+  },
+];
+
 export default function ReadForSpeed() {
+
+
+    
   return (
     <PageShell>
       <section className="min-h-screen w-full">
@@ -44,36 +66,16 @@ export default function ReadForSpeed() {
                 className="rounded-xl border border-white/10 drop-shadow-[0_0_20px_rgba(96,165,250,0.35)] transition hover:drop-shadow-[0_0_30px_rgba(96,165,250,0.7)] sm:col-span-2"
               />
             </div>
-
+{/* <span className="text-blue-400">React</span>  */}
             <div className="w-full space-y-6 text-xl leading-relaxed text-white/85 md:text-2xl lg:w-1/2">
-              <p>
-                <span className="font-semibold text-white">
-                  Read. For Speed
-                </span>{" "}
-                is my ongoing full-stack project: a{" "}
-                <span className="text-blue-400">React</span> frontend paired
-                with <span className="text-blue-400">Node.js</span>,{" "}
-                <span className="text-blue-400">Express</span>, and{" "}
-                <span className="text-blue-400">TypeScript REST APIs</span>,
-                with <span className="text-blue-400">Supabase</span> handling
-                the database and authentication.
-              </p>
+            {HIGHLIGHTS.map(({label, detail}) => (
 
-              <p>
-                I developed a{" "}
-                <span className="text-blue-400">baseline assessment</span> that
-                measures WPM, comprehension accuracy, and effective WPM, plus an{" "}
-                <span className="text-blue-400">RSVP reading interface</span>{" "}
-                and a <span className="text-blue-400">results dashboard</span>{" "}
-                to track progress.
-              </p>
+                <p key={label}>
+                    <span className="text-blue-400">{label}</span> : {detail}
+                </p>
 
-              <p>
-                Currently, I'm working on{" "} expanding the platform with{" "}
-                <span className="text-blue-400">chunked RSVP</span>,{" "}
-                <span className="text-blue-400">speed drills</span>, and a{" "}
-                <span className="text-blue-400">leaderboard</span>.
-              </p>
+            ))}
+              
             </div>
           </div>
 
