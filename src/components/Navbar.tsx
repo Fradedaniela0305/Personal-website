@@ -62,8 +62,8 @@ export default function Navbar() {
           </button>
 
 <a
-  href="/resume.pdf"
-  download="Dani_Fradinho_Resume.pdf"
+  href="/Daniela_FradeNoguez_Resume_SWE.pdf"
+  download="Daniela_FradeNoguez_Resume_SWE.pdf"
   className="
     rounded-full border border-blue-400/70
     px-4 py-2 text-blue-400
