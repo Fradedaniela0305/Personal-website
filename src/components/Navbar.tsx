@@ -64,6 +64,11 @@ export default function Navbar() {
 <a
   href="/Daniela_FradeNoguez_Resume_SWE.pdf"
   download="Daniela_FradeNoguez_Resume_SWE.pdf"
+  onClick={(event) => {
+    if (!window.confirm("Would you like to download my resume?")) {
+      event.preventDefault();
+    }
+  }}
   className="
     rounded-full border border-blue-400/70
     px-4 py-2 text-blue-400
