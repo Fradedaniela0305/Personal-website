@@ -92,9 +92,13 @@ export default function Skills() {
       name: "C++",
       img: "/cpp.png",
       details: [
-        "Coursework",
-        "Data structures and algorithms",
-        "Systems programming fundamentals",
+        "3D Graphics Engine",
+        "Collision Lab",
+        "Vector and matrix math, perspective projection",
+        "AABB collision detection",
+        "SDL2 and raylib",
+        "Google Test and Catch2 unit testing",
+        "C++17, Make, and CMake",
       ],
     },
     {

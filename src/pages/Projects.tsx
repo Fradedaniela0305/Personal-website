@@ -59,6 +59,29 @@ const FEATURED: Project[] = [
 
 const BY_SECTION: { label: string; projects: Project[] }[] = [
   {
+    label: "C++ & Graphics",
+    projects: [
+      {
+        title: "3D Graphics Engine",
+        subtitle: "Built from scratch in C++",
+        description:
+          "A software 3D graphics engine exploring how meshes become pixels. Implements .obj loading, vector and matrix math, perspective projection, depth sorting, and keyboard camera controls, with SDL2 for windowing and drawing.",
+        stack: ["C++17", "SDL2", "Make", "Google Test"],
+        github: "https://github.com/Fradedaniela0305/graphics-3d-engine",
+        image: "/graphics-engine.png",
+      },
+      {
+        title: "Collision Lab",
+        subtitle: "3D Collision Detection Sandbox",
+        description:
+          "A 3D sandbox with WASD cube movement and color feedback when axis-aligned bounding boxes touch or overlap. Implements AABB collision detection across all three axes, with 12 Catch2 test cases covering interval and box checks. Detection only; cubes can pass through each other.",
+        stack: ["C++17", "raylib", "CMake", "Catch2"],
+        github: "https://github.com/Fradedaniela0305/Collision-Lab",
+        image: "/collision-lab.png",
+      },
+    ],
+  },
+  {
     label: "Web & Full-Stack",
     projects: [
       {
