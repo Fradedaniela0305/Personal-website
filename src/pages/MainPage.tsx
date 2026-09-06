@@ -48,7 +48,7 @@ export default function MainPage() {
 
           {/* Shorter, punchier subtitle that won't wrap awkwardly */}
           <p className="mt-4 max-w-xl text-xl md:text-2xl leading-relaxed text-white/70">
-            CS student @ UBC building full-stack apps —
+            CS student @ UBC Coding —
             <br className="hidden md:block" /> and drawing on my free time
           </p>
 

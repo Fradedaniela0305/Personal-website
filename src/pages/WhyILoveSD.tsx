@@ -28,6 +28,11 @@ export default function WhyILoveSD() {
             <span className="text-blue-400">creativity</span> is what excites me
             most.
           </p>
+
+          <p>
+            My interest in art and programming has recently led me to start exploring a carreer in <span className="text-blue-400">graphics</span>
+          </p>
+
         </div>
 
         <img

@@ -24,6 +24,16 @@ type Project = {
 
 const FEATURED: Project[] = [
   {
+    title: "3D Graphics Engine",
+    subtitle: "Built from scratch in C++",
+    description:
+      "A software 3D graphics engine exploring how meshes become pixels. Implements .obj loading, vector and matrix math, perspective projection, depth sorting, and keyboard camera controls, with SDL2 for windowing and drawing.",
+    stack: ["C++17", "SDL2", "Make", "Google Test"],
+    github: "https://github.com/Fradedaniela0305/graphics-3d-engine",
+    image: "/graphics-engine.png",
+    featured: true,
+  },
+  {
     title: "Read. For Speed",
     subtitle: "My favorite project",
     description:
@@ -173,7 +183,7 @@ function FeaturedCard({ project }: { project: Project }) {
 
   return (
     <div
-      className="
+      className={`
         group relative flex flex-col justify-between
         overflow-hidden
         rounded-2xl border border-white/10 bg-white/[0.03]
@@ -181,8 +191,8 @@ function FeaturedCard({ project }: { project: Project }) {
         transition duration-300
         hover:border-blue-400/40 hover:bg-white/[0.06]
         hover:drop-shadow-[0_0_30px_rgba(96,165,250,0.15)]
-        cursor-pointer
-      "
+        ${project.detailRoute ? "cursor-pointer" : ""}
+      `}
       onClick={() => project.detailRoute && navigate(project.detailRoute)}
     >
       <img
